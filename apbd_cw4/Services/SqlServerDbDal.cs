@@ -15,7 +15,7 @@ namespace apbd_cw4.Services
             {
                 var list = new List<Enrollment>();
 
-                using (SqlConnection con = new SqlConnection("Data Source=db-mssql;Initial Catalog=s18705;Integrated Security=True"))
+                using (SqlConnection con = new SqlConnection("Data Source=db-mssql;Initial Catalog=s18444;Integrated Security=True"))
                 using (SqlCommand com = new SqlCommand())
                 {
                     com.Connection = con;
@@ -56,7 +56,7 @@ namespace apbd_cw4.Services
             {
                 var list = new List<Student>();
 
-                using (SqlConnection con = new SqlConnection("Data Source=db-mssql;Initial Catalog=s18705;Integrated Security=True"))
+                using (SqlConnection con = new SqlConnection("Data Source=db-mssql;Initial Catalog=s18444;Integrated Security=True"))
                 using (SqlCommand com = new SqlCommand())
                 {
                     com.Connection = con;
